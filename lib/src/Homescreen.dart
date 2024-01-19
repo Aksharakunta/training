@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
                 icon: Icon(Icons.logout))
           ],
         ),
-        body: Center(child: Text("Hello")),
+        body: Center(child: Text("Hello" ,style: TextStyle(fontSize: 6),)),
 
     drawer: Drawer(
         child: ListView(
